@@ -1,0 +1,12 @@
+.alert {
+    margin-top: 2rem;
+    padding: 1.5rem 3rem;
+    background-color: red;
+    color: var(--white);
+    border-radius: .3rem;
+    font-size: 1.4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    opacity: .8;
+}
