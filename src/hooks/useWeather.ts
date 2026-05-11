@@ -48,7 +48,7 @@ export default function useWheather() {
         setNotFound(false);
 
         try {
-            const geoUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${city},${country}&appid=${API_Key}`;
+            const geoUrl = `https://api.openweathermap.org/geo/1.0/direct?q=${city},${country}&appid=${API_Key}`;
             const { data: geoData } = await axios(geoUrl);
 
             // Comprobar si exite la data
